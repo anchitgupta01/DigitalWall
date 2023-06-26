@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Wall</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Digital Wall</h1>
+    <div class="container">
+      <div class="leftCol">
+        <h2>Create a Board</h2>
+        <input type="text" id="boardName" placeholder="Board Name" />
+        <button onclick="createBoard()" style="display: block !important;
+        margin: 0 auto !important;
+        width: 100% !important;">
+          <i class="fa fa-plus-circle" style="font-size: 34px !important; "></i>
+        </button>
+
+        <h2>Boards</h2>
+        <input
+          type="text"
+          id="boardSearch"
+          placeholder="Search by Title"
+          oninput="searchBoards()"
+        />
+      </div>
+      <ul id="boardList"></ul>
+    </div>
+   
+
+    <script src="script.js"></script>
+  </body>
+</html>
