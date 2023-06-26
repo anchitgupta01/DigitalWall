@@ -13,6 +13,7 @@ Digital Wall is a web application that allows users to create boards and post co
 
 ## Demo
    <a href="http://digitalwall.rf.gd/?i=1">digitalWall</a>
+   <a href=" https://anchitgupta01.github.io/DigitalWall/"> https://anchitgupta01.github.io/DigitalWall/</a>
 
 ## Technologies Used
 
