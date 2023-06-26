@@ -10,6 +10,10 @@ Digital Wall is a web application that allows users to create boards and post co
 - Like posts to show appreciation.
 - Search boards and posts by title.
 
+
+## Demo
+   <a href="http://digitalwall.rf.gd/?i=1">digitalWall</a>
+
 ## Technologies Used
 
 - HTML
@@ -20,7 +24,7 @@ Digital Wall is a web application that allows users to create boards and post co
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/digital-wall.git
+git clone https://github.com/anchitgupta01/DigitalWall.git
 
 
 2. Open the index.html file in your preferred web browser.
